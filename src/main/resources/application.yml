@@ -1,2 +1,8 @@
-server.port: 8081
-spring.application.name: doc-fusion-api
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+spring:
+  application.name: doc-fusion-api
+jodconverter:
+  url: ${JODCONVERTER_API_URL:http://localhost:8080/lool/convert-to}

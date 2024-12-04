@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  app-doc-fusion-api:
+    container_name: app-doc-fusion-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - JODCONVERTER_API_URL=http://jodconverter-api:8080/lool/convert-to
+    depends_on:
+      - jodconverter-api
+    networks:
+      - app-network
+  jodconverter-api:
+    image: ghcr.io/jodconverter/jodconverter-examples:rest-4.4.7-3
+    container_name: jodconverter-api
+    ports:
+      - "8081:8080"
+    networks:
+      - app-network
+networks:
+  app-network:
+    driver: bridge

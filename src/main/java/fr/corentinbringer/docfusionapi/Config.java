@@ -1,4 +1,4 @@
-package fr.avafuneraire.mspublipostage;
+package fr.corentinbringer.docfusionapi;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;

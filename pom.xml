@@ -10,10 +10,10 @@
 		<relativePath/>
 	</parent>
 
-	<groupId>fr.avafuneraire</groupId>
-	<artifactId>ms-publipostage</artifactId>
+	<groupId>fr.corentinbringer</groupId>
+	<artifactId>doc-fusion-api</artifactId>
 	<version>1.0.0</version>
-	<name>ms-publipostage</name>
+	<name>doc-fusion-api</name>
 
 	<properties>
 		<java.version>21</java.version>

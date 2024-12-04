@@ -1,10 +1,11 @@
-package fr.avafuneraire.mspublipostage;
+package fr.corentinbringer.docfusionapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MsPublipostageApplicationTests {
+class DocFusionApiApplicationTests
+{
 
 	@Test
 	void contextLoads() {

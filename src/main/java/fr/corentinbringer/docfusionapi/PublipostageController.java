@@ -1,4 +1,4 @@
-package fr.avafuneraire.mspublipostage;
+package fr.corentinbringer.docfusionapi;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;

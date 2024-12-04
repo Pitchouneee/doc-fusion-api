@@ -1,2 +1,2 @@
 server.port: 8081
-spring.application.name: publipostage
+spring.application.name: doc-fusion-api

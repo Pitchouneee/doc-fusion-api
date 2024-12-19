@@ -103,7 +103,7 @@ curl -X POST -F "file=@template.docx" \
 
 ## Configuration
 
-Main parameters configurable via `application.properties` or environment variables
+Main parameters configurable via `application.yml` or environment variables
 
 ## Architecture
 
